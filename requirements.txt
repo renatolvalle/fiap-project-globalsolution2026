@@ -1,0 +1,6 @@
+# O sistema usa só a biblioteca padrão do Python (json, pathlib, unicodedata).
+# Abaixo, ferramentas de desenvolvimento:
+pytest        # testes
+pytest-cov    # cobertura de testes
+black         # formatação
+pylint        # lint

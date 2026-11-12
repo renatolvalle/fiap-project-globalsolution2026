@@ -1,0 +1,42 @@
+{
+  "versao": "0.1",
+  "descricao": "Base de conhecimento do Citizen Assist AI. ENTRADAS DE EXEMPLO: substituir por orientações verificadas (mínimo 15).",
+  "orientacoes": [
+    {
+      "id": 1,
+      "tema": "Exemplo A",
+      "pergunta": "Como faço para tirar a segunda via de um documento?",
+      "palavras_chave": ["segunda via", "documento", "emitir"],
+      "orientacao": "TEXTO DE EXEMPLO: substituir pela orientação verificada.",
+      "fonte": {
+        "nome": "EXEMPLO: nome do órgão oficial",
+        "url": "https://exemplo.gov.br"
+      },
+      "data_verificacao": "2026-11-12"
+    },
+    {
+      "id": 2,
+      "tema": "Exemplo A",
+      "pergunta": "Quais documentos preciso levar no atendimento?",
+      "palavras_chave": ["documentos", "levar", "atendimento"],
+      "orientacao": "TEXTO DE EXEMPLO: substituir pela orientação verificada.",
+      "fonte": {
+        "nome": "EXEMPLO: nome do órgão oficial",
+        "url": "https://exemplo.gov.br"
+      },
+      "data_verificacao": "2026-11-12"
+    },
+    {
+      "id": 3,
+      "tema": "Exemplo B",
+      "pergunta": "Onde encontro o posto de atendimento mais próximo?",
+      "palavras_chave": ["posto", "atendimento", "endereço", "próximo"],
+      "orientacao": "TEXTO DE EXEMPLO: substituir pela orientação verificada.",
+      "fonte": {
+        "nome": "EXEMPLO: nome do órgão oficial",
+        "url": "https://exemplo.gov.br"
+      },
+      "data_verificacao": "2026-11-12"
+    }
+  ]
+}

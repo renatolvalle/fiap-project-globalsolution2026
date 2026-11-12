@@ -1,0 +1,11 @@
+{
+  "descricao": "Perguntas de avaliação da busca. id_esperado = id da orientação certa em data/base.json; null = o sistema deve dizer que não há resposta. EXEMPLOS: ampliar junto com a base.",
+  "casos": [
+    {"pergunta": "Preciso da segunda via do meu documento", "id_esperado": 1},
+    {"pergunta": "como emitir documento de novo?", "id_esperado": 1},
+    {"pergunta": "O que devo levar no atendimento?", "id_esperado": 2},
+    {"pergunta": "Qual o endereço do posto mais próximo?", "id_esperado": 3},
+    {"pergunta": "Qual a previsão do tempo para amanhã?", "id_esperado": null},
+    {"pergunta": "Quem ganhou o jogo ontem?", "id_esperado": null}
+  ]
+}

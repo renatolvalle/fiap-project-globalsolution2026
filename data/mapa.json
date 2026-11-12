@@ -1,0 +1,23 @@
+{
+  "descricao": "MAPA DE EXEMPLO (fictício): substituir por locais e distâncias reais.",
+  "unidade": "km",
+  "locais": [
+    {"id": "centro", "nome": "Centro", "tipo": "bairro"},
+    {"id": "vila_a", "nome": "Vila A", "tipo": "bairro"},
+    {"id": "vila_b", "nome": "Vila B", "tipo": "bairro"},
+    {"id": "jardim_c", "nome": "Jardim C", "tipo": "bairro"},
+    {"id": "parque_d", "nome": "Parque D", "tipo": "bairro"},
+    {"id": "posto_norte", "nome": "Posto de Atendimento Norte", "tipo": "posto"},
+    {"id": "posto_sul", "nome": "Posto de Atendimento Sul", "tipo": "posto"}
+  ],
+  "ligacoes": [
+    {"de": "centro", "para": "vila_a", "distancia": 2.0},
+    {"de": "centro", "para": "vila_b", "distancia": 3.5},
+    {"de": "centro", "para": "jardim_c", "distancia": 4.0},
+    {"de": "vila_a", "para": "posto_norte", "distancia": 1.5},
+    {"de": "vila_a", "para": "vila_b", "distancia": 2.5},
+    {"de": "vila_b", "para": "parque_d", "distancia": 3.0},
+    {"de": "jardim_c", "para": "posto_sul", "distancia": 2.0},
+    {"de": "parque_d", "para": "posto_sul", "distancia": 1.0}
+  ]
+}
